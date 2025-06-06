@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Gestor de Contraseñas Personal
+PythCrypt - Gestor de Contraseñas Personal
 Aplicación de escritorio moderna y segura para gestionar contraseñas
 """
 
@@ -607,7 +607,7 @@ class LoginDialog(QDialog):
     
     def __init__(self, parent=None):
         super().__init__(parent)
-        self.setWindowTitle("Gestor de Contraseñas - Acceso")
+        self.setWindowTitle("Pythcrypt - Acceso")
         self.setFixedSize(350, 220)
         self.setModal(True)
         self.master_password = ""
@@ -620,7 +620,7 @@ class LoginDialog(QDialog):
         layout.setSpacing(15)
 
         # Logo/Título
-        title_label = QLabel("🔐 Gestor de Contraseñas")
+        title_label = QLabel("Pythcrypt 🔐 Gestor de Contraseñas")
         title_label.setAlignment(Qt.AlignCenter)
         title_label.setFont(QFont("Segoe UI", 16, QFont.Bold))
         layout.addWidget(title_label)
@@ -710,7 +710,7 @@ class PasswordManagerWindow(QMainWindow):
         self.clipboard_manager = ClipboardManager()
         self.passwords_data = []
         
-        self.setWindowTitle("🔐 Gestor de Contraseñas Personal")
+        self.setWindowTitle("Pythcrypt 🔐 Gestor de Contraseñas Personal")
         self.setMinimumSize(900, 600)
         self.resize(1100, 700)
         
@@ -1152,7 +1152,7 @@ def main():
     app = QApplication(sys.argv)
     
     # Configurar la aplicación
-    app.setApplicationName("Gestor de Contraseñas Personal")
+    app.setApplicationName("Pythcrypt - Gestor de Contraseñas Personal")
     app.setOrganizationName("PasswordManager")
     app.setApplicationVersion("1.0")
     
