@@ -710,7 +710,7 @@ class PasswordManagerWindow(QMainWindow):
         self.clipboard_manager = ClipboardManager()
         self.passwords_data = []
         
-        self.setWindowTitle("Pythcrypt 🔐 Gestor de Contraseñas Personal")
+        self.setWindowTitle("Pythcrypt 🔐")
         self.setMinimumSize(900, 600)
         self.resize(1100, 700)
         
@@ -1175,5 +1175,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-
 
