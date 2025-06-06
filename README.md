@@ -1,13 +1,12 @@
-# pycrypt-password-vault
-# 🔐**Altopath's First Release! — PyVault**
+# 🔐**Altopath's First Release! — Pythcrypt**
 
-This is the first public release from Altopath, a small but ambitious company focused on building privacy-first tools with simplicity and elegance.
+This is the first public release from Altopath, a small but ambitious team focused on building privacy-first tools with simplicity and elegance.
 
 ---
 
-# **PyVault – A Simple Python Password Manager**
+# **Pythcrypt – A Simple Python Password Manager**
 
-PyVault is a lightweight, local password manager built with Python and cryptography. It allows you to securely store, view, and manage your credentials from a simple CLI or GUI (depending on your implementation).
+Pythcrypt is a lightweight, local password manager built with Python and cryptography. It allows you to securely store, view, and manage your credentials from a simple CLI or GUI (depending on your implementation).
 
 🔧 _**Features**_:
 
