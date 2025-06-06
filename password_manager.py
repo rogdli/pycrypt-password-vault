@@ -620,7 +620,7 @@ class LoginDialog(QDialog):
         layout.setSpacing(15)
 
         # Logo/Título
-        title_label = QLabel("Pythcrypt 🔐 Gestor de Contraseñas")
+        title_label = QLabel("Pythcrypt 🔐")
         title_label.setAlignment(Qt.AlignCenter)
         title_label.setFont(QFont("Segoe UI", 16, QFont.Bold))
         layout.addWidget(title_label)
