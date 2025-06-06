@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-PythCrypt - Gestor de Contraseñas Personal
+Pythcrypt - Gestor de Contraseñas Personal
 Aplicación de escritorio moderna y segura para gestionar contraseñas
 """
 
