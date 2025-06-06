@@ -9,7 +9,8 @@ This is the first public release from Altopath, a small but ambitious company fo
 
 PyVault is a lightweight, local password manager built with Python and cryptography. It allows you to securely store, view, and manage your credentials from a simple CLI or GUI (depending on your implementation).
 
-🔧 Features:
+🔧 _**Features**_:
+
 Local encryption using Fernet (symmetric encryption)
 
 Store credentials in an encrypted file
@@ -20,7 +21,8 @@ Lightweight and fully offline
 
 Cross-platform compatible via PyInstaller
 
-📦 Built With:
+📦_ **Built With**_:
+
 Python 3.13
 
 cryptography
