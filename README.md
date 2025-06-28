@@ -1,9 +1,3 @@
-# 🔐**Altopath's First Release! — Pythcrypt**
-
-This is the first public release from Altopath, a small but ambitious team focused on building privacy-first tools with simplicity and elegance.
-
----
-
 # **Pythcrypt – A Simple Python Password Manager**
 
 Pythcrypt is a lightweight, local password manager built with Python and cryptography. It allows you to securely store, view, and manage your credentials from a simple CLI or GUI (depending on your implementation).
